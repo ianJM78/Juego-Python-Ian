@@ -2,10 +2,10 @@ from matplotlib.patches import Rectangle
 import pygame,sys
 
 
-DEATH_SCREEN_IMAGE=pygame.transform.scale(pygame.image.load(r"C:\assets\Captura.PNG"),(300,80))
-VADER=pygame.transform.scale(pygame.image.load(r"C:\assets\VADER.jpg"),(100,80))
+DEATH_SCREEN_IMAGE=pygame.transform.scale(pygame.image.load(r"Captura.PNG"),(300,80))
+VADER=pygame.transform.scale(pygame.image.load(r"VADER.jpg"),(100,80))
 VADER_FLIPED=pygame.transform.flip(VADER,True,False)
-OBI_ONE=pygame.transform.scale(pygame.image.load(r"C:\assets\OBI_ONE.jpg"),(100,80))
+OBI_ONE=pygame.transform.scale(pygame.image.load(r"OBI_ONE.jpg"),(100,80))
 OBI_ONE_FLIPPED=pygame.transform.flip(OBI_ONE,True,False)
 WIDTH=1500
 HEIGHT=800
